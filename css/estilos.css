@@ -1,0 +1,269 @@
+body {
+    background-color: skyblue
+}
+
+#i1 {
+    text-align: initial;
+    margin: 20px;
+}
+
+#i2 {
+    border: 6px solid red;
+    border-radius: 5px;
+    margin-top: 0px;
+    /* border-left-color: transparent;
+   border-right-color: transparent; */
+
+}
+
+#i2 {
+    display: flex;
+    /* Establece un layout de tipo flexbox */
+    /*overflow-x: auto;*/
+    /* Añade una barra de desplazamiento horizontal si el contenido es más grande que el contenedor */
+    overflow-y: hidden;
+    /* Oculta la barra de desplazamiento vertical */
+    white-space: nowrap;
+    /* Evita que las imágenes se envuelvan cuando no haya suficiente espacio */
+}
+
+#i2 img {
+    margin-right: 0px;
+    /* Añade un pequeño margen entre las imágenes */
+}
+
+h1 {
+    text-align: center;
+    margin: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30px;
+}
+
+.card {
+    margin: 20px;
+}
+
+hr {
+    margin: 20px;
+}
+
+
+.row {
+    margin: 30px;
+}
+
+#te {
+    text-align: center;
+}
+
+.separated-images img {
+    margin-right: 20px;
+}
+
+h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large 30vw;
+}
+
+.imagen-container {
+    max-width: 100%;
+    /* este es para el ancho maximo del contenedor*/
+}
+
+.imagen-container img {
+    width: 100%;
+    /* Este establece el ancho de la imagen al 100% del contenedor */
+    height: auto;
+    /* Permite que la altura se ajuste automáticamente manteniendo la proporción */
+    display: block;
+    /* Asegura que la imagen se muestre como un bloque */
+}
+
+/* este es sobre la imagen de bases */
+.mi-seccion .container img {
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+    /* el contenido se ajusta para que ocupe todo el contenedor manteniendo su relación de aspecto, pero cortando el exceso que no quepa en el contenedor.*/
+    -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, #0004);
+    /*Se utiliza para crear un efecto de reflejo debajo de un elemento*/
+    transform-origin: center;
+    /*rotación en el eje y se originará desde el centro del elemento.*/
+    transform: perspective(800px) rotateY(25deg);
+    /*Aquí se está aplicando una rotación en el eje Y de 25 grados, y también se está aplicando una perspectiva tridimensional*/
+    transition: 0.5s;
+    /*se utiliza para definir una transición*/
+}
+
+.mi-seccion .container:hover img {
+    /*se aplica cuando el mouse está pasando por encima de un elemento*/
+    /*la imagen se vuelve ligeramente transparente*/
+    opacity: 0.3;
+}
+
+.mi-seccion .container img:hover {
+    /*cuando el mouse está sobre la imagen, se aplican dos efectos a la imagen*/
+    transform: perspective(800px) rotateY(0deg);
+    /*establece la perspectiva desde la que se ve la imagen*/
+    opacity: 1;
+    /*este hace que la imagen vuelve a su opacidad completa*/
+}
+
+/*apartir de aca todo sobre la pajina de Juegos -------------------------------------------------------------*/
+.row {
+    margin: 30px;
+}
+
+.card {
+    width: 250px;
+    /* Ancho fijo para todas las cartas */
+    height: 400px;
+    /* Altura fija para todas las cartas */
+    margin: 30px;
+}
+
+.card img {
+    max-width: 40%;
+    /* La imagen no será más grande que el contenedor */
+    max-height: 40%;
+    /* La imagen no será más alta que el contenedor */
+}
+
+body {
+    background-color: skyblue;
+}
+
+#bu {
+    margin: 60px;
+}
+
+#unilogo {
+    text-align: center;
+}
+
+/*A partir de aca todo sobre la pajina de robotica----------------------------------------------------------------*/
+.row {
+    margin: 30px;
+}
+
+.card {
+    width: 250px;
+    /* Ancho fijo para todas las cartas */
+    height: 400px;
+    /* Altura fija para todas las cartas */
+    margin: 30px;
+}
+
+.card img {
+    max-width: 40%;
+    /* La imagen no será más grande que el contenedor */
+    max-height: 40%;
+    /* para ajustar la altura de la img que no sea mas alto que el contenedor */
+}
+
+body {
+    background-color: skyblue;
+}
+
+#bu {
+    margin: 60px;
+}
+
+#unilogo {
+    text-align: center;
+}
+
+/*A partir de aca todo sobre dispositivos-------------------------------------------------------------------------*/
+.row {
+    margin: 30px;
+}
+
+.card {
+    width: 250px;
+    /* Ancho fijo para todas las cartas */
+    height: 400px;
+    /* Altura fija para todas las cartas */
+    margin: 30px;
+}
+
+.card img {
+    max-width: 40%;
+    /* La imagen no será más grande que el contenedor */
+    max-height: 40%;
+    /* La imagen no será más alta que el contenedor */
+}
+
+body {
+    background-color: skyblue;
+}
+
+#bu {
+    margin: 60px;
+}
+
+/*Apartiir de aca todo sobre electronica--------------------------------------------------------------------------*/
+.row {
+    margin: 30px;
+}
+
+.card {
+    width: 250px;
+    /* Ancho fijo para todas las cartas */
+    height: 400px;
+    /* Altura fija para todas las cartas */
+    margin: 30px;
+}
+
+.card img {
+    max-width: 40%;
+    /* La imagen no será más grande que el contenedor */
+    max-height: 40%;
+    /* La imagen no será más alta que el contenedor */
+}
+
+body {
+    background-color: skyblue;
+}
+
+#bud {
+    margin: 60px;
+}
+
+#unilogo {
+    text-align: center;
+}
+
+/*Apartir de aca todo sobre informatica---------------------------------------------------------------------------*/
+.row {
+    margin: 30px;
+}
+
+.card {
+    width: 250px;
+    /* Ancho fijo para todas las cartas */
+    height: 400px;
+    /* Altura fija para todas las cartas */
+    margin: 30px;
+}
+
+.card img {
+    max-width: 40%;
+    /* La imagen no será más grande que el contenedor */
+    max-height: 40%;
+    /* La imagen no será más alta que el contenedor */
+}
+
+body {
+    background-color: skyblue;
+}
+
+#bu {
+    margin: 60px;
+}
+
+/*A partir de aca todo sobre aplicativos-------------------------------------------------------------------------*/
